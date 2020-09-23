@@ -1,0 +1,115 @@
+[Root]
+Most Recent Package=MediaOrganizer
+
+
+[Package|MediaOrganizer|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Projekts\FileTracker\Pack
+
+[Package|MediaOrganizer|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MediaOrganizer|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MediaOrganizer|Files Found]
+
+[Package|MediaOrganizer|Files Released]
+
+[Package|MediaOrganizer|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msjro.dll=
+
+[Package|MediaOrganizer|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|MediaOrganizer|Files Added]
+d:\projekts\filetracker\readme1st.txt=
+d:\projekts\filetracker\filedb.mdb=
+d:\projekts\filetracker\filedb.bak=
+
+[Package|MediaOrganizer|Files Removed]
+
+[Package|MediaOrganizer|Files In Project]
+D:\Projekts\FileTracker\MediaOrganizer.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msjro.dll=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Projekts\FileTracker\Readme1st.txt=Yes
+D:\Projekts\FileTracker\FILEDB.MDB=Yes
+D:\Projekts\FileTracker\FILEDB.bak=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+
+[Package|MediaOrganizer|Configure Registry Files]
+Applicable=No
+
+[Package|MediaOrganizer|Configure Remote Servers]
+Applicable=No
+
+[Package|MediaOrganizer|Install Locations]
+D:\Projekts\FileTracker\MediaOrganizer.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msjro.dll=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projekts\FileTracker\Readme1st.txt=$(AppPath)
+D:\Projekts\FileTracker\FILEDB.MDB=$(AppPath)
+D:\Projekts\FileTracker\FILEDB.bak=$(AppPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+
+[Package|MediaOrganizer|Configure Shared Files]
+Applicable=Yes
+D:\Projekts\FileTracker\MediaOrganizer.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Projekts\FileTracker\Readme1st.txt=No
+D:\Projekts\FileTracker\FILEDB.MDB=No
+D:\Projekts\FileTracker\FILEDB.bak=No
+
+[Package|MediaOrganizer|Distribution]
+Type=single
+Size=
+Title=Knoton큦 Media Organizer
+
+[Package|MediaOrganizer|Package]
+PackageFolder=D:\Projekts\FileTracker\Pack
+ProjectFolder=D:\Projekts\FileTracker
+ServerSideCab=
+File1=D:\Projekts\FileTracker\Pack\setup.exe
+File2=D:\Projekts\FileTracker\Pack\Setup.Lst
+File3=D:\Projekts\FileTracker\Pack\MediaOrganizer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|MediaOrganizer|IconGroups]
+Group0=Knoton큦 Developement
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|MediaOrganizer|Knoton큦 Developement]
+Icon1=MediaOrganizer.exe
+Title1=Knoton큦 Media Organizer
+StartIn1=$(AppPath)
+Key1=Icon1
