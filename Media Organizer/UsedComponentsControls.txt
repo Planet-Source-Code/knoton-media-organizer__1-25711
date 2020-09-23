@@ -1,0 +1,10 @@
+This components and controls is used in MediaOrganizer.
+
+Components
+Microsoft ActiveX Data Ojbects 2.5 library
+Microsoft Jet and Replication Objects 2.5 library
+Microsoft Scripting Runtime
+
+controls
+Microsoft Common Dialog Control 6.0 (SP3)
+Microsoft Tabbed Dialog Control 6.0 (SP5)
